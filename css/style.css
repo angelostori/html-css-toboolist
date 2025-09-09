@@ -17,3 +17,27 @@ h1{
     font-size: 3rem;
 }
 
+main{
+    background-color: white;
+    margin: 5% 10%;
+}
+
+br{
+    color: #f6f8f9;
+}
+
+.button{
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#task{
+    border-color: #1e90ff;
+    background-color: #1e90ff;
+    color: white;
+}
+
+#section{
+    border-color: lightgrey;
+    color: lightgray;
+}
