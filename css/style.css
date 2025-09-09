@@ -1,11 +1,13 @@
+/*general*/
 body{
     background-color: #f6f8f9;
     font-family: sans-serif;
+    margin: 0;
 }
-
+/*header*/
 header{
-    padding: 0;
-    margin: 1rem;
+    padding: 0 1rem;
+    margin: 0 auto;
     box-sizing: border-box;
     background-color: white;
 }
@@ -16,14 +18,12 @@ h1{
     margin: 0;
     font-size: 3rem;
 }
-
+/*main*/
 main{
+    padding: 20px;
     background-color: white;
-    margin: 5% 10%;
-}
-
-br{
-    color: #f6f8f9;
+    width: 80%;
+    margin: 30px auto;
 }
 
 .button{
@@ -40,4 +40,97 @@ br{
 #section{
     border-color: lightgrey;
     color: lightgray;
+}
+
+hr{
+    color: #f6f8f9;
+}
+/*lista*/
+.check{
+    color: #73c8b4;
+    border: 2px solid #73c8b4;
+    width: 5px;
+    height: 5px;
+    padding: 4px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.cross{
+    color: red;
+    border: 2px solid red;
+    width: 5px;
+    height: 5px;
+    padding: 4px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.editorial{
+    color: white;
+    background-color: #1e90ff;
+    border: 2px solid #1e90ff;
+    width: 5px;
+    height: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.goals{
+    color: white;
+    background-color: #9c72e4;
+    border: 2px solid #9c72e4;
+    width: 5px;
+    height: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.recruiting{
+    color: white;
+    background-color: #64c0a8;
+    border: 2px solid #64c0a8;
+    width: 5px;
+    height: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+.website{
+    color: white;
+    background-color: #d863a0;
+    border: 2px solid #d863a0;
+    width: 5px;
+    height: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+.sales{
+    color: white;
+    background-color: #b0c926;
+    border: 2px solid #b0c926;
+    width: 5px;
+    height: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+.mobile{
+     color: white;
+    background-color: #f29e33;
+    border: 2px solid #f29e33;
+    width: 5px;
+    height: 5px;
+    padding: 3px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 10px;
 }
